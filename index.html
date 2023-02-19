@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,400;0,700;1,400&family=Skranji:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section class="background">
+            <div class="logo">
+                <img src="/public/img/odin-lined.png" alt="odin logo">
+                <p>
+                    ODIN
+                </p>
+            </div>
+            <div class="credits">
+                <p>                    
+                    Photo by
+                    <a href="https://unsplash.com/@elyssarenae">Elyssa Fahndrich</a>
+                    on
+                    <a href="https://unsplash.com/">Unsplash</a>
+                </p>
+            </div>
+        </section>
+        <section class="content">
+            <header>
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+
+                You know you want to.
+            </header>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>
+                        Let's do this!
+                    </legend>
+                    <div>
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" placeholder="Jane" minlength="3" maxlength="50">
+                    </div>
+                    <div>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" placeholder="Doe" minlength="3" maxlength="50">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="myname@email.com" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input 
+                        type="tel" 
+                        name="phone" 
+                        pattern="^(\d{2})\D*(\d{5}|\d{4})\D*(\d{4})$"
+                        placeholder="00111112222"
+                        title="Please only insert numbers."
+                        >
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" required placeholder="**********">
+                    </div>
+                    <div>
+                        <label for="password">Confirm password</label>
+                        <input type="password" name="password" required placeholder="**********">
+                    </div>
+                </fieldset>
+            </form>
+            <footer>
+                <button type="submit">Create Account</button>
+                <div>
+                    Already have an account?
+                    <a href="http://">Log in</a>
+                </div>
+            </footer>
+        </section>
+    </main>
+</body>
+</html>
