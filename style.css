@@ -75,7 +75,7 @@ section {
 
 .background {
     flex-grow: 1;
-    background-image: url(../img/elyssa-fahndrich-MF16lGb95WY-unsplash.jpg);
+    background-image: url(/img/elyssa-fahndrich-MF16lGb95WY-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
