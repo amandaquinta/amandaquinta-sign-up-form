@@ -22,7 +22,7 @@ Creating a simple sign-up form for the [Intermediate HTML and CSS](https://www.t
 ### Links
 
 - Solution URL: [GitHub](https://github.com/amandaquinta/sign-up-form)
-- Live Site URL: [Vercel]()
+- Live Site URL: [Vercel](https://sign-up-form-rho-six.vercel.app/)
 
 
 ## My process
